@@ -6,7 +6,7 @@ import Products from './pages/Products/Products'
 let routes = [
   { path: '/', element: <Home /> },
   { path: '/users', element: <UserList /> },
-  { path: '/NewUser', element: <NewUser /> },
+  { path: '/newUser', element: <NewUser /> },
   { path: '/products', element: <Products /> },
 ]
 export default routes
